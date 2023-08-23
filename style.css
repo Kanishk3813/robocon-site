@@ -118,7 +118,6 @@
 }
 
 .new1{
-    border: 2px solid red;
     width: 100%;
     height: 252px;
     position: relative;
@@ -141,11 +140,68 @@
 }
 
 .new2{
-    border: 2px solid red;
     position: relative;
     width: 100%;
-    height: 20px;
+    height: 406px;
+    background-color: black;
 }
+.box{
+    display: inline-flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-content: center;
+    width: 100%;
+    
+    border-radius: 10px 10px 0px 0px;
+
+    
+}
+.boxin{
+    
+    height: 302px;
+    width: 337px;
+    position: relative;
+    top: 82px;
+    border: 2px solid rgb(18, 18, 18);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.div1{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.blue{
+    background-color: #5d5dff;   
+}
+
+.red{
+    background-color: #fb4b4b;
+    
+}
+
+.cyan{
+    background-color: #6ef3f3;
+    
+}
+
+
+.div2{
+    width: 100%;
+    background-color: white;
+    height: 40%;
+    border-radius: 0px 0px 10px 10px;
+   position: absolute;
+   
+}
+
+.div2 p{
+    padding: 21px 32px;
+}
+
+
 
 
 
